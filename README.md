@@ -1,10 +1,14 @@
 # langsa-system：浪飒（langsa）进制
+## 安装
+```sh
+pip install langsa-system
+```
 
 ## demo
 
 ```python
-from langsa import encode_langsa,decode_langsa
-from 浪飒 import encode_Langsa,decode_Langsa
+from langsa_system.langsa import encode_langsa,decode_langsa
+from langsa_system.浪飒 import encode_Langsa,decode_Langsa
 
 print(encode_langsa("langsasec"))
 print(decode_langsa(encode_langsa("langsasec")))
